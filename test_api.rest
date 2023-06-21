@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/todo
+Content-Type: application/json
+
+{
+  "created_timestamp": "2023-06-26T14:48:00.000Z",
+  "item_description": "Test todo item4",
+  "item_group": "Test group",
+  "item_status": "completed",
+  "dependency": "",
+  "remarks": "Test remarks"
+}
